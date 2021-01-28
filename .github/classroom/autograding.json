@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "working",
+      "setup": "javac *.java",
+      "run": "java Main",
+      "input": "5\r\n5\r\n5\r\n5\r\n5\r\n",
+      "output": "5",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "rounding",
+      "setup": "javac *.java",
+      "run": "java Main",
+      "input": "2\r\n2\r\n3\r\n4\r\n5",
+      "output": " 3 ",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "roundingUp",
+      "setup": "javac *.java",
+      "run": "java Main",
+      "input": "4\r\n4\r\n4\r\n4\r\n3",
+      "output": " 4 ",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}
