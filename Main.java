@@ -10,6 +10,8 @@ class Main {
     
     double average = total/5;
     
+    //you need to round the average using N5.roundToInt to convert the number to an integer (no 5.7 points here :D)
+    
     String output = name + " for " + team + " scored an average of " + average + " per game";
     
     Screen.display(output, "player average");
