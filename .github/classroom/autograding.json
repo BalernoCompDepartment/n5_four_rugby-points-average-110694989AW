@@ -4,7 +4,7 @@
       "name": "working",
       "setup": "javac *.java",
       "run": "java Main",
-      "input": "5\r\n5\r\n5\r\n5\r\n5\r\n",
+      "input": "5\r\n5\r\n5\r\n5\r\n5",
       "output": "5",
       "comparison": "regex",
       "timeout": 10,
